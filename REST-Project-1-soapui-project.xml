@@ -1108,7 +1108,7 @@ testRunner.testCase.testSuite.project.getTestSuiteByName('TestSuite1').getTestCa
 
 log.info (" >> "+testRunner.testCase.getSetupScript());
 log.info (" >> "+testRunner.testCase.getTearDownScript());
-</script></con:config></con:testStep><con:setupScript>log.info "setupfor Test1 "
+</script></con:config></con:testStep><con:testStep type="groovy" name="Groovy Script" id="160458cd-6fdc-4d53-9ed7-449ff2a8cfe9"><con:settings/><con:config><script/></con:config></con:testStep><con:setupScript>log.info "setupfor Test1 "
 </con:setupScript><con:tearDownScript>log.info "teardown for Test1 "
 </con:tearDownScript><con:properties/></con:testCase><con:testCase id="a7c262c0-2673-4b73-b691-23a612edfccd" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Assertions" searchProperties="true"><con:settings/><con:testStep type="request" id="2fc651ff-39b2-4f42-b9bb-4260ea530da7" name="CountryCurrency"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>CountryInfoServiceSoapBinding</con:interface><con:operation>CountryCurrency</con:operation><con:request name="CountryCurrency" id="25edf658-7ad8-44a5-ab68-0edad3bd7714"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">\r
    <soapenv:Header/>\r
